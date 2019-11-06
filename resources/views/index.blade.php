@@ -1,3 +1,5 @@
+
+
 @extends('layouts.master')
 @section('title', 'Clean Blog')
 @section('content')
@@ -75,3 +77,4 @@
         </div>
     </div>
 @endsection
+
