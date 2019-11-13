@@ -14,8 +14,20 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('posts', ['as' => 'posts.index', 'uses' =>'PostsController@index']);
-Route::get('post', ['as' => 'posts.show', 'uses' => 'PostsController@show']);
-Route::get('about', ['as' => 'posts.about', 'uses' =>'PostsController@about']);
-Route::get('contact', ['as' => 'posts.contact', 'uses' =>'PostsController@contact']);
+//\App\Post::create([
+//    'title'=>'test title',
+//    'content'=>'test content',
+//]);
+
+// $post =new \App\Post();
+// $post->title='test title';
+// $post->content='test content';
+// $post->save();
+
+// $posts=\App\Post::all();
+// dd($posts);
+// $post = \App\Post::find(1);
+// dd($post);
+// $posts = \App\Post::where('id', '<' , 10)->orderBy('id', 'DESC')->get();
+// dd($posts);
 
